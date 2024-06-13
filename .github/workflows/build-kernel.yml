@@ -23,7 +23,7 @@ jobs:
         git clone -b lineage-19.1 https://github.com/LineageOS/android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9.git
         git clone https://github.com/LineageOS/android_prebuilts_clang_kernel_linux-x86_clang-r416183b.git
         git clone -b android-13.0.0_r0.117 https://android.googlesource.com/kernel/prebuilts/build-tools
-        git clone https://github.com/LineageOS android_prebuilts_tools-lineage.git
+        git clone https://github.com/LineageOS/android_prebuilts_tools-lineage.git
 
     - name: Compile kernel
       run: |
